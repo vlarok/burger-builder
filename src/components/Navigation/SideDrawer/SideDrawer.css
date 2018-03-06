@@ -9,11 +9,11 @@
     background-color: white;
     padding: 32px 16px;
     box-sizing: border-box;
-    transform: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
 }
 
-@media (min-width: 500px){
-    .SideDrawer{
+@media (min-width: 500px) {
+    .SideDrawer {
         display: none;
     }
 }
@@ -27,4 +27,5 @@
 
 .Logo {
     height: 11%;
+    margin-bottom: 32px;
 }
